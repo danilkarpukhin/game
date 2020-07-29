@@ -1,0 +1,32 @@
+{
+  "name": "defendergame",
+  "version": "1.0.0",
+  "description": "\"Browser based game\"",
+  "main": "index.js",
+  "scripts": {
+    ...
+    "scripts": {
+        ...
+        "build": "babel src -d dist"
+        ...
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danilkarpukhin/game.git"
+  },
+  "keywords": [
+    "game"
+  ],
+  "author": "danil",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danilkarpukhin/game/issues"
+  },
+  "homepage": "https://github.com/danilkarpukhin/game#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.10.5",
+    "@babel/core": "^7.10.5",
+    "@babel/preset-env": "^7.10.4"
+  }
+}
